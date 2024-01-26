@@ -1,0 +1,64 @@
+/* Flex, grid, margins, padding */
+
+/* Arrow UI REFERENCE : https://www.reshot.com/free-svg-icons/item/arrow-chevron-left-975UQXVKZF/ */
+
+header {
+    text-align: center;
+}
+
+.topicImage {
+    max-width: 850px;
+    max-height: 500px;
+}
+
+.logo {
+    max-width: 200px;
+    max-height: 100px;
+    margin-top: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    max-width: 840px;
+  }
+
+.containerItem {
+    position: relative;
+    margin-bottom: 15px;
+    display: inline-block;
+    padding: 5px;
+}
+
+.centeredText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.categoryImage {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+footer {
+    text-align: center;
+}
