@@ -2,8 +2,8 @@
 
 /* Arrow UI REFERENCE : https://www.reshot.com/free-svg-icons/item/arrow-chevron-left-975UQXVKZF/ */
 
-header {
-    text-align: center;
+.logoHeader {
+    text-align: left;
 }
 
 .topicImage {
