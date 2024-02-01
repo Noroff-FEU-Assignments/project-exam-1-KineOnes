@@ -4,15 +4,39 @@
 
 header {
     background-color: rgba(244, 227, 207, 1);
+    text-align: right;
 }
 
 .navPage {
-    text-align: right;
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(0, 0, 0);
     /*text-align: right;*/
     padding: 10px;
+}
+
+.box {
+    background-color: antiquewhite;
+    border-radius: 20px;
+    justify-content: center;
+    max-width: 840px;
+    position: relative;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.content {
+    background-color:whitesmoke;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.button {
+    background-color: antiquewhite;
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 2px 2px 2px #949494;
 }
 
 h1 {

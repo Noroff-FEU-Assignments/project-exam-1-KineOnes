@@ -2,18 +2,15 @@
 
 /* Arrow UI REFERENCE : https://www.reshot.com/free-svg-icons/item/arrow-chevron-left-975UQXVKZF/ */
 
-.logoHeader {
-    text-align: left;
-}
-
+/*
 .topicImage {
     max-width: 850px;
     max-height: 500px;
-}
+}*/
 
 .logo {
-    max-width: 200px;
-    max-height: 100px;
+    max-width: 250px;
+    max-height: 50px;
     margin-top: 10px;
 }
 
@@ -40,13 +37,39 @@ body {
 
 .centeredText {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     text-shadow: 2px 2px 4px #000000;
     font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.quote {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    right: 20%;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.button {
+    text-align: right;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+img {
+    float: left;
+    width:  900px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
 }
 
 main {
