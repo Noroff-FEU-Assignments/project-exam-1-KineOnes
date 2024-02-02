@@ -12,8 +12,6 @@ async function getBlogPosts(url){
                 </div>
                 <div class="blogText">
                     <h2>${post.title.rendered}</h2>
-                    ${post.excerpt.rendered}
-                    <a class="button" href="contact.html">CONTACT</a> 
                 </div>
             </div>`;
     })

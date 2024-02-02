@@ -3,8 +3,15 @@
 @media  (max-width: 600px) {
     img {
         float: left;
-        width: 30px;
-        height: 150px;
+        max-width: 30px;
+        max-height: 200px;
         object-fit: cover;
     }
+    .blogPost {
+        flex-direction: column;
+    }
+    .blogImage {
+        max-width: 330px;
+    }
 }
+

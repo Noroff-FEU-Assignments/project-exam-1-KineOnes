@@ -62,3 +62,22 @@ footer {
     color: white;
     font-family: 'Times New Roman', Times, serif;
 }
+
+.blogPost {
+    display: flex;
+    flex-direction: row;
+    background-color: #F4E3CF;
+    margin: 10px;
+    border-radius: 20px;
+}
+.blogFeaturedImage { /*HVA GJØR DENNE?*/
+    margin: 10px;
+    /*max-width: 500px;*/
+}
+.blogImage {
+    max-width: 450px;
+}
+.blogText {
+    margin: 10px; /*HVA GJØR DENNE?*/
+    text-align: left;
+}
