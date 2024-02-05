@@ -34,6 +34,8 @@ body {
     margin-bottom: 15px;
     display: inline-block;
     padding: 5px;
+    background-color: #F4E3CF;
+    border-radius: 20px;
 }
 
 .centeredText {
@@ -80,8 +82,8 @@ main {
 }
 
 .categoryImage {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 400px;
+    max-height: 500px;
 }
 
 footer {

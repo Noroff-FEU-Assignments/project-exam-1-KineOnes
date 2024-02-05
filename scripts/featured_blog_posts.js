@@ -6,12 +6,10 @@ async function getBlogPosts(url){
     const posts = await response.json();
     posts.forEach(function(post){
         postsContainer.innerHTML += `
-            <div class="blogPost">
-                <div class="blogFeaturedImage">
-                    <img class="blogImage" src="${post._embedded["wp:featuredmedia"]["0"].source_url}"/>
-                </div>
-                <div class="blogText">
-                    <h2>${post.title.rendered}</h2>
+            <div class="containerIndex">
+            
+                <div class="containerItem">
+                    <img class="categoryImage" src="${post._embedded["wp:featuredmedia"]["0"].source_url}"/><h2>${post.title.rendered}</h2>
                 </div>
             </div>`;
     })
