@@ -3,9 +3,18 @@
 /* Arrow UI REFERENCE : https://www.reshot.com/free-svg-icons/item/arrow-chevron-left-975UQXVKZF/ */
 
 .logo {
-    max-width: 250px;
+    max-width: 285px;
     max-height: 50px;
-    margin-top: 10px;
+    margin: 10px; 
+    
+}
+
+.logoHeader {
+    text-align: left;
+}
+
+.navPage {
+    text-align: right;
 }
 
 body {

@@ -22,17 +22,18 @@
     </head>
     <body>
         <header>
-            <div class="logoHeader">   
+            <!--<div class="logoHeader">   
             <a href="index.html">
-                <img class="logo" src="design_elements/logo_text.png"/>
+                <img class="logo" src="design_elements/logo.png"/>-->
             </a>
             </div>
 
             <nav class="nav">
-                <!--<a href="index.html">
-                    <img class="logo" src="design_elements/logo_text.png"/>
-                </a>-->
-                <a class="navPage" href="shop.html">CERAMIC</a>
+                <div class="logoHeader">   
+                    <a href="index.html">
+                        <img class="logo" src="design_elements/logo.png"/>
+                    </div>
+            
                 <a class="navPage" href="blog.html">BLOG</a>
                 <a class="navPage" href="about.html">ABOUT US</a>
                 <a class="navPage" href="contact.html">CONTACT</a>
@@ -40,35 +41,36 @@
         </header>
 
         <main>
-
-            <div class="box">
-                <div class="content">
-                    <p class="insertArea">First name:</p>
-                </div>
-
-                <div class="content">
-                    <p class="insertArea">Last name:</p>
-                </div>
-
-                <div class="content">
-                    <p class="insertArea">E-mail address:</p>
-                </div>
-
-                <div class="content">
-                    <p class="insertArea">Phone number:</p>
-                </div>
-
-                <div class="content">
-                    <p class="insertArea">Message:</p>
-                </div>
-
-                <a class="button" href="">SEND</a>
-
+            <h1>CONTACT US</h1>
+            <div class="container">
+                
+                <form id="form">
+                    <h1 class= success id="success">Thank you for contacting us!</h1>
+        
+                    <label class="item">Your name:
+                        <input name="firstname" id= firstName placeholder="*Required" type="text"></label>
+                        <div class="error-input" id="firstNameError">*Insert your name</div>
+        
+                    <label class="item">Subject:
+                        <input name="subject" id= subject placeholder="*Minimum 10 characters" type="text"></label>
+                        <div class="error-input" id="subjectError">*Insert subject (minimum 10 characters)</div>
+        
+                    <label class="item">Email:
+                        <input name="email" id= email placeholder="*Required" type="text"></label>
+                        <div class="error-input" id="emailError">*Insert your email</div>
+                        
+                    <label class="item">Address:
+                        <input name="address" id= address placeholder="*Minimum 25 characters" type="text"></label>
+                        <div class="error-input" id="addressError">*Insert your address (minimum 25 characters)</div>    
+                    
+                    <div>
+                        <button type="submit" class="submitButton">Send</button>
+                    </div>
+                </form>
             </div>
-
         </main>
 
-        <script src="scripts/contact_form.js"></script>
+        <script src="scripts/contact.js"></script>
 
         <footer>
             <div class="footer">
