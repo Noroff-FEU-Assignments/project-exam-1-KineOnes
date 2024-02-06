@@ -2,12 +2,6 @@
 
 /* Arrow UI REFERENCE : https://www.reshot.com/free-svg-icons/item/arrow-chevron-left-975UQXVKZF/ */
 
-/*
-.topicImage {
-    max-width: 850px;
-    max-height: 500px;
-}*/
-
 .logo {
     max-width: 250px;
     max-height: 50px;
@@ -67,7 +61,6 @@ body {
 }
 
 img {
-    float: left;
     width:  450px;
     height: 250px;
     object-fit: cover;
