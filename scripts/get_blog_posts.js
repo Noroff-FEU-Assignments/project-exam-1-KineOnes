@@ -1,6 +1,9 @@
 const baseUrl = "http://onesdesign.local/wp-json/wp/v2/posts?_embed";
 const postsContainer = document.querySelector(".posts");
 
+//Loader - NOT FINISHED//
+//document.querySelector('.posts').innerHTML = `<div class="loader"> <h1>Loading...</h1></div>`;//
+
 async function getBlogPosts(url){
     const response = await fetch(url);
     const posts = await response.json();

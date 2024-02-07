@@ -70,6 +70,7 @@ footer {
 .footerText {
     color: white;
     font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
 }
 
 .blogPost {

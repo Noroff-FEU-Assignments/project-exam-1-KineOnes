@@ -12,6 +12,10 @@ const emailError = document.getElementById("emailError");
 const address = document.getElementById("address");
 const addressError = document.getElementById("addressError");
 
+const message = document.getElementById("message");
+const messageError = document.getElementById("messageError");
+
+
 const submitButton = document.querySelector(".submitButton");
 
 const success = document.querySelector(".success");
@@ -52,6 +56,13 @@ function validateForm(event) {
         emailError.style.display = "none";
     } else {
         emailError.style.display = "block";
+        formError = true;
+    }
+
+    if(checkLength(message.value, 50) ) {
+        messageError.style.display = "none";
+    } else {
+        messageError.style.display = "block";
         formError = true;
     }
 

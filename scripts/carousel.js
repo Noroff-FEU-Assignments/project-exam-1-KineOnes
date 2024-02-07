@@ -3,6 +3,9 @@ let state = {
   slideIndex: 1,
 }
 
+//Loader - NOT FINISHED//
+//document.querySelector('.posts').innerHTML = `<div class="loader"> <h1>Loading...</h1></div>`;//
+
 async function getLatestBlogPosts(numPosts){
   const response = await fetch("http://onesdesign.local/wp-json/wp/v2/posts?_embed&per_page=" + numPosts);
   const posts = await response.json();
