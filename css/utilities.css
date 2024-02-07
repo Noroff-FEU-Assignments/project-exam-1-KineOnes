@@ -28,6 +28,10 @@ body {
     max-width: 840px;
   }
 
+.containerIndex {
+    max-width: 930px;
+}  
+
 .containerItem {
     position: relative;
     margin-bottom: 15px;
@@ -35,6 +39,7 @@ body {
     padding: 5px;
     background-color: #F4E3CF;
     border-radius: 20px;
+    max-width: 410px;
 }
 
 .centeredText {
