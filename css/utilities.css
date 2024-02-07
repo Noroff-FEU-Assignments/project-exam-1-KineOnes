@@ -6,15 +6,10 @@
     max-width: 285px;
     max-height: 50px;
     margin: 10px; 
-    
 }
 
 .logoHeader {
     text-align: left;
-}
-
-.navPage {
-    text-align: right;
 }
 
 body {
@@ -70,8 +65,8 @@ body {
 }
 
 img {
-    width:  450px;
-    height: 250px;
+    width:  650px;
+    height: 350px;
     object-fit: cover;
     border-radius: 20px;
 }

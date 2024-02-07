@@ -1,101 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=>, initial-scale=1.0">
-        <title>OnesDesign/HOME</title>
-        <link href="css/index.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=>, initial-scale=1.0" />
+    <title>OnesDesign/HOME</title>
+    <link href="css/index.css" rel="stylesheet" />
 
-        <!-- Hotjar Tracking Code for OnesDesign -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:3844428,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+    <!-- Hotjar Tracking Code for OnesDesign -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 3844428, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
         a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="logoHeader">
+        <a href="index.html">
+          <img class="logo" src="design_elements/logo.png" />
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="about.html">ABOUT US</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    </head>
-    <body>
-        <header>
-            <!--<div class="logoHeader">   
-            <a href="index.html">
-                <img class="logo" src="design_elements/logo.png"/>-->
-            </a>
-            </div>
+    <main>
+      <div class="containerIndex">
+        <div class="containerItem">
+          <a href="about.hmtl">
+            <img src="images/hands.jpg" />
+            <div class="centeredText">CERAMICS</div>
+            <p class="quote">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, at
+              nesciunt eum assumenda exercitationem sunt, impedit, facilis rerum
+              ratione repellendus libero in recusandae hic repellat laborum
+              atque laudantium! Sapiente, ducimus.
+            </p></a
+          >
+        </div>
+      </div>
 
-            <nav class="nav">
-                <div class="logoHeader">   
-                    <a href="index.html">
-                        <img class="logo" src="design_elements/logo.png"/>
-                    </div>
-            
-                <a class="navPage" href="blog.html">BLOG</a>
-                <a class="navPage" href="about.html">ABOUT US</a>
-                <a class="navPage" href="contact.html">CONTACT</a>
-            </nav>
-        </header>
+      <div class="slideshowContainer"></div>
+      <div class="dotsContainer" style="text-align: center"></div>
+    </main>
+    <footer>
+      <div class="footer">
+        <p class="footerText">Copyright ONES DESIGN 2023</p>
+      </div>
+    </footer>
 
-        <main>
-            <!--<div class="containerIndex">
-                <div class="containerItem">
-                    <a href="about.hmtl">
-                        <img src="images/hands.jpg"/>
-                        <div class="centeredText">CERAMICS</div>
-                        <p class="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, at nesciunt eum assumenda 
-                            exercitationem sunt, impedit, facilis rerum ratione repellendus libero in recusandae hic repellat laborum 
-                            atque laudantium! Sapiente, ducimus.</p></a>
-                </div>-->
-                
-            </div>
-
-            <div class="posts">
-            </div>
-
-             <!-- Slideshow container -->
-            <div class="slideshowContainer">
-                <!-- Full-width images with number and caption text -->
-                <div class="mySlides fade">
-                    <div class="numbertext">1 / 3</div>
-                    <div class="text">Caption Text</div>
-                    <img  src="images/bowl.jpg" style="width:100%">
-                    
-                </div>
-                <!--<div class="mySlides fade">
-                    <div class="numbertext">2 / 3</div>
-                    <img  src="images/bowls.jpg" style="width:100%">
-                    <div class="text">Caption Two</div>
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">3 / 3</div>
-                    <img  src="images/silver.jpg" style="width:100%">
-                    <div class="text">Caption Three</div>
-                </div>-->
-                <!-- Next and previous buttons -->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            </div>
-            <br>
-            
-            <!-- The dots/circles -->
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-            </div>
-        </main>
-        <footer>
-            <div class="footer">
-                <p class="footerText">Copyright ONES DESIGN 2023</p>
-            </div>
-        </footer>
-
-        <script src="scripts/carousel.js"></script>
-        <script src="scripts/featured_blog_posts.js"></script>
-        
-    </body>
+    <script src="scripts/carousel.js"></script>
+  </body>
 </html>
