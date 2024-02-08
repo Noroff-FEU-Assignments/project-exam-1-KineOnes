@@ -8,6 +8,10 @@ p {
     font-size: 16px;
 }
 
+.paragraph {
+    padding: 30px;
+}
+
 h2 {
     color: rgb(0, 130, 135);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
