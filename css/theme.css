@@ -97,7 +97,7 @@ footer {
     margin: 10px;
     border-radius: 20px;
 }
-.blogFeaturedImage { /*HVA GJØR DENNE?*/
+.blogFeaturedImage { 
     margin: 10px;
     /*max-width: 500px;*/
 }
@@ -105,6 +105,6 @@ footer {
     max-width: 550px;
 }
 .blogText {
-    margin: 10px; /*HVA GJØR DENNE?*/
+    margin: 10px; 
     text-align: left;
 }
