@@ -8,8 +8,14 @@ p {
     font-size: 16px;
 }
 
-.paragraph {
+.paragraphBlack {
     padding: 30px;
+    color: black;
+}
+
+.paragraphWhite {
+    color: white;
+    font-size: 20px;
 }
 
 h2 {
@@ -88,6 +94,10 @@ footer {
     color: white;
     font-family: 'Times New Roman', Times, serif;
     margin: 20px;
+}
+
+.posts {
+    max-width: 1000px;
 }
 
 .blogPost {
