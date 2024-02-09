@@ -31,13 +31,13 @@
 
 .success {
     display: none;
-    color: white;
+    color: #489441;
     font-size: 2rem;
-    background-color: rgb(12, 120, 0);
     padding: 6px;
     border-radius: 1rem;
 }
 
 .container {
     margin-top: 40px;
+    margin-bottom: 40px;
 }

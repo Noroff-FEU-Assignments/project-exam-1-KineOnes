@@ -2,7 +2,7 @@
 
 /* Slideshow container */
 .slideshowContainer {
-  max-width: 1000px;
+  max-width: 550px;
   position: relative;
   margin: auto;
 }
@@ -57,6 +57,7 @@
   padding: 20px 100px 20px 100px;
   border-radius: 20px;
   font-size: 30px;
+  max-width: 550px;
   display:flex;
 }
 
