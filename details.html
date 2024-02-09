@@ -42,18 +42,23 @@
     </header>
 
     <main>
-      <div class="banner">
-        <img class="bannerImage" src="images/banner.jpg" alt="" />
-        <div class="centeredText">
-          OnesDesign
-          <p class="paragraphWhite">
-            Join us on a creative journey where clay becomes a medium for
-            self-expression, and every course is an opportunity to unlock your
-            artistic potential. Come, play with clay, and let your imagination
-            take flight!
-          </p>
-        </div>
-        <img class="arrowDown" src="design_elements/arrowDown.png" alt="" />
+      <!-- Trigger the Modal -->
+      <img
+        id="myImg"
+        src="images/bowls.jpg"
+        alt="Snow"
+        style="width: 100%; max-width: 300px" />
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="img01" />
+
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
       </div>
     </main>
 
@@ -63,6 +68,6 @@
       </div>
     </footer>
 
-    <script src="scripts/carousel.js"></script>
+    <script src="scripts/modal.js"></script>
   </body>
 </html>

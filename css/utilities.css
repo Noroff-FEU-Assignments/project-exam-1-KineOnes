@@ -59,7 +59,7 @@ body {
     position: absolute;
     top: 45%;
     left: 48%;
-    width: 40px;
+    max-width: 40px;
 }
 
 .quote {
