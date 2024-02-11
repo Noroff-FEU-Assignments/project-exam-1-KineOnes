@@ -101,6 +101,7 @@ main {
 .categoryImage {
     max-width: 400px;
     max-height: 500px;
+    border-radius: 20px;
 }
 
 footer {
