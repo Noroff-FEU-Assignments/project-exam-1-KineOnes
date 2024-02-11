@@ -13,7 +13,7 @@ async function getBlogPosts(url){
                 <div class="blogText">
                     <h2>${post.title.rendered}</h2>
                     ${post.excerpt.rendered}
-                    <a class="button" href="contact.html">CONTACT</a> 
+                    <a class="button" href="details.html">Read more</a> 
                 </div>
             </div>`;
 

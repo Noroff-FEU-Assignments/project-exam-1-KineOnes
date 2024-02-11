@@ -8,6 +8,10 @@ p {
     font-size: 16px;
 }
 
+.footerText {
+    color: white;
+}
+
 .paragraphBlack {
     padding: 30px;
     color: black;
