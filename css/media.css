@@ -2,8 +2,7 @@
 
 @media  (max-width: 600px) {
     img {
-        float: left;
-        max-width: 30px;
+        float: center;
         max-height: 200px;
         object-fit: cover;
     }
@@ -13,6 +12,20 @@
     .blogImage {
         max-width: 330px;
     }
+    .footer_area {
+        flex-direction: column;
+        grid-template-columns: 1fr;
+      } 
+    .footer_element {
+        flex-direction: column;
+        grid-template-columns: 1fr;
+      }
+    .expos{
+      flex-direction: column;
+      grid-template-columns: 1fr;
+    }
     
-}
+}  
+
+
 

@@ -2,6 +2,20 @@
 
 /* Arrow UI REFERENCE : https://www.reshot.com/free-svg-icons/item/arrow-chevron-left-975UQXVKZF/ */
 
+.expos {
+    text-align: left;
+    display: flex; 
+    padding: 10px;
+    max-width: 800px;
+    background: #F4E3CF;
+}
+
+.expo {
+    text-align: left;
+    flex: 1px;
+    background-color: #ffffff;
+}
+
 .logo {
     max-width: 285px;
     max-height: 50px;
@@ -73,7 +87,7 @@ body {
 }
 
 .button {
-    text-align: right;
+    float:right;
     text-decoration: none;
     padding: 10px;
     border-radius: 10px;
@@ -104,6 +118,6 @@ main {
     border-radius: 20px;
 }
 
-footer {
+/*footer {
     text-align: center;
-}
+}*/
