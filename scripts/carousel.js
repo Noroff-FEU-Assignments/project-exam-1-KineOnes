@@ -33,8 +33,11 @@ async function showSlides(n) {
   state.posts.forEach(function(post, i){
     slideshowContainer.innerHTML += `
       <div class="mySlides fade">
+        <a href="blog_details.html?id=${post.id}">
         <img class="blogImage" src="${post._embedded["wp:featuredmedia"]["0"].source_url}"/>
+        </a> 
         <div class="text"><span>${post.title.rendered}</span></div>
+        
       </div>`;
     
     dotsContainer.innerHTML += `<span class="dot" onclick="currentSlide(${i})"></span>`
