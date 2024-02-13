@@ -24,6 +24,10 @@
     text-align: left;
 }
 
+.dark_text {
+    margin-top: 100px;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -116,6 +120,10 @@ main {
     border-radius: 20px;
 }
 
-/*footer {
-    text-align: center;
-}*/
+img[class^="wp-image-"] {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    max-width: 250px;
+    max-height: 300px;
+  }

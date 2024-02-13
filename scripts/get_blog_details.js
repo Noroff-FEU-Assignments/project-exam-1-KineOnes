@@ -7,12 +7,12 @@ async function getBlogPost(url){
     const response = await fetch(url);
     const post = await response.json();
     mainContainer.innerHTML = `
-        <h1>${post.title.rendered}</h1>
-        ${post.content.rendered}
-        <div class="modal">
-          <span class="modal-close">&times;</span>
-          <img class="modal-content" />
-          <div class="modal-caption"></div>
+             <h1>${post.title.rendered}</h1>
+             ${post.content.rendered}
+             <div class="modal">
+               <span class="modal-close">&times;</span>
+               <img class="modal-content" />
+               <div class="modal-caption"></div> 
         </div>`;
 }
 

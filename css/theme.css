@@ -24,11 +24,12 @@ p {
     font-size: 20px;
 }
 
-h2 {
+.subject {
     color: rgb(0, 130, 135);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
-
+    background-color: rgba(244, 227, 207, 1);
+    padding: 20px
 }
 
 header {
@@ -53,15 +54,28 @@ header li {
     margin-right: auto;
 }
 
-.box {
-    background-color: antiquewhite;
-    border-radius: 20px;
-    justify-content: center;
-    max-width: 840px;
-    position: relative;
-    justify-content: center;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+.flex-gap { 
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.containerWelcome {
+   /*text-align: center;
+    display: flex; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 1200px;
+    border-radius: 20px;*/
+    text-align: center;
+    display: flex; 
+    /*padding-bottom: 10px;*/
+}
+
+.itemWelcome {
+    text-align: center;
+    flex: 1px;
+    padding: 10px;
+    /*background-color: #F4E3CF;*/
 }
 
 .content {
@@ -75,6 +89,8 @@ header li {
     color: rgb(0, 0, 0);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     box-shadow: 2px 2px 2px #949494;
+    margin: 10px;
+    border-radius: 8px;
 }
 
 h1 {

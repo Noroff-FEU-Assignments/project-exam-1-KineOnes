@@ -24,7 +24,32 @@
       flex-direction: column;
       grid-template-columns: 1fr;
     }
+    .containerWelcome  {
+      flex-direction: column;
+      grid-template-columns: 1fr;
+    } 
+}  
 
+  @media(min-width: 500px){
+    nav li {
+      display: inline-block;
+      color: rgb(0, 0, 0);
+      margin-left: 10px;
+      padding: 10px 50px;
+      border-radius: 8px;
+    }
+    nav {
+      text-align: right;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+  }
+  .logo_desktop {
+      max-height: 200px;
+      padding: 20px;
+      padding-left: 20px;
+  }
     
 }  
 
