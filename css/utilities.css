@@ -95,6 +95,10 @@ body {
     border-radius: 10px;
 }
 
+.buttonView {
+    float: center;
+}
+
 .bannerImage {
     max-width: fit-content;
     max-height: 400px;

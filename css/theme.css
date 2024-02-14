@@ -8,20 +8,26 @@ p {
     font-size: 15px;
 }
 
-.footerText {
-    color: white;
+.h3 {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
-    text-align: left;
 }
 
-.paragraphBlack {
+.paragraph {
     padding: 30px;
     color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .paragraphWhite {
     color: white;
     font-size: 20px;
+}
+
+.footerText {
+    color: white;
+    font-size: 15px;
+    text-align: left;
 }
 
 .subject {
