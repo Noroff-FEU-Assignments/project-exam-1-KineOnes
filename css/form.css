@@ -1,8 +1,10 @@
+/* The form area */
 .container {
     display: grid;
     text-align: center;
     background: rgba(244, 227, 207, 1);
     margin-top: 30px;
+    margin-bottom: 40px;
     border: 4px solid rgba(244, 227, 207, 1);
     border-radius: 1rem;
     max-width: 400px;
@@ -13,6 +15,7 @@
     align-items: center;
 }
 
+/* The area for filling in characters */
 .item {
     padding: 10px;
     flex-direction: column;
@@ -23,12 +26,14 @@
     width:100%;
 }
 
+/* Error message displayed when criteria is not met */
 .error-input {
     display: none;
     color: red;
     font-size: 1rem;
 }
 
+/* Message confirming the form is subbmitted */
 .success {
     display: none;
     color: #489441;
@@ -37,7 +42,7 @@
     border-radius: 1rem;
 }
 
+/* Spacing between bottom of form and top of footer */
 .container {
-    margin-top: 40px;
     margin-bottom: 40px;
 }

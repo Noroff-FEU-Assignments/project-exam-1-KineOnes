@@ -82,6 +82,7 @@ img[class^="wp-image-"]:hover {
     cursor: pointer;
 }
 
+/* Map in the footer */
 .map {
     max-height: 175px;
     border-radius: 100px;

@@ -16,7 +16,7 @@ p {
 
 .paragraphBlack {
     padding: 30px;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 .paragraphWhite {
