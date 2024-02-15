@@ -1,6 +1,6 @@
 /*Files for media queries*/
 
-@media  (max-width: 600px) {
+@media (max-width: 600px) {
     img {
         float: center;
         max-height: 200px;
@@ -30,7 +30,7 @@
     } 
 }  
 
-  @media(min-width: 500px){
+@media (min-width: 500px){
     nav li {
       display: inline-block;
       color: rgb(0, 0, 0);
@@ -41,17 +41,9 @@
     nav {
       text-align: right;
     }
+    /* TODO Is this correct? */
     .logo {
       display: flex;
       align-items: center;
-  }
-  .logo_desktop {
-      max-height: 200px;
-      padding: 20px;
-      padding-left: 20px;
-  }
-    
-}  
-
-
-
+    }
+}

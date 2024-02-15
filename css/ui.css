@@ -1,12 +1,5 @@
 /* header, footer, navigation, alerts, pop ups */
 
-/*Loader - NOT FINISHED*/
-.loader {
-    color: rgb(103, 0, 0);
-    font-size: 2rem;
-    margin: auto;
-}
-
 /* MODAL OF IMAGES */
 
 /* Style the Image Used to Trigger the Modal */
@@ -14,6 +7,8 @@ img[class^="wp-image-"] {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    max-width: 500px; 
+    max-height: 300px;  
 }
 
 img[class^="wp-image-"]:hover {

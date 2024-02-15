@@ -66,22 +66,14 @@ header li {
 }
 
 .containerWelcome {
-   /*text-align: center;
-    display: flex; 
-    padding-top: 10px;
-    padding-bottom: 10px;
-    max-width: 1200px;
-    border-radius: 20px;*/
     text-align: center;
     display: flex; 
-    /*padding-bottom: 10px;*/
 }
 
 .itemWelcome {
     text-align: center;
     flex: 1px;
     padding: 10px;
-    /*background-color: #F4E3CF;*/
 }
 
 .content {
@@ -135,10 +127,11 @@ footer {
     margin: 10px;
     border-radius: 20px;
 }
+
 .blogFeaturedImage { 
     margin: 10px;
-    /*max-width: 500px;*/
 }
+
 .blogImage {
     max-width: 550px;
     width:  548px;
@@ -146,6 +139,7 @@ footer {
     object-fit: cover;
     border-radius: 20px;
 }
+
 .blogText {
     margin: 10px; 
     text-align: left;
