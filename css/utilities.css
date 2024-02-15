@@ -27,6 +27,7 @@ body {
     background: rgba(244, 227, 207, 1);
     padding: 30px;
     display: flex;
+    margin-bottom: 20px;
   }
 
 .containerIndex {

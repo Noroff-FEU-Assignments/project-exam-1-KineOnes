@@ -12,6 +12,9 @@ async function getBlogPost(url){
 async function populateBlogPage(){
     const post = await getBlogPost(baseUrl);
 
+    // Update title dynamically
+    document.title = `My Blog | ${post.title.rendered}`;
+
     mainContainer.innerHTML = `
         <h1>${post.title.rendered}</h1>
         ${post.content.rendered}
@@ -29,6 +32,12 @@ async function populateBlogPage(){
     modalClose.onclick = function() {
         modal.style.display = "none";
     }
+
+    modal.addEventListener("click", function (event) {
+        if (event.target === modal) {
+            modal.style.display = "none";
+        }
+    });
     
     const images = document.querySelectorAll('[class^="wp-image-"]');
     images.forEach(function(img){
