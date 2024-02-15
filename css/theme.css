@@ -27,6 +27,13 @@ p {
     padding: 20px
 }
 
+/* NEW HEADER (BEFORE HAMBURGER MENU) */
+.logo {
+    max-width: 285px;
+    max-height: 50px;
+    margin-left: 10px; 
+}
+
 header {
     display: flex;
     justify-content: flex-end;
@@ -47,11 +54,53 @@ header li {
 
 .logoHeader {
     margin-right: auto;
+    padding: 20px;
 }
 
 .flex-gap { 
     display: inline-flex;
     flex-wrap: wrap;
+}
+
+/* Add this CSS for the hamburger menu */
+.nav-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px; /* Adjust as needed */
+        right: 0;
+        background-color: rgba(244, 227, 207, 1);
+        z-index: 1;
+    }
+
+    .nav-list.show {
+        display: flex;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    header li {
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+    }
 }
 
 .containerWelcome {
