@@ -19,17 +19,6 @@ p {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.paragraphWhite {
-    color: white;
-    font-size: 20px;
-}
-
-.footerText {
-    color: white;
-    font-size: 15px;
-    text-align: left;
-}
-
 .subject {
     color: rgb(0, 130, 135);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -104,18 +93,6 @@ a {
     text-decoration: none;
 }
 
-footer {
-    background-color: rgb(0, 130, 135);
-    padding: 3px;
-    margin-top: auto;
-}
-
-.footerText {
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    margin: 20px;
-}
-
 .posts {
     max-width: 1000px;
 }
@@ -143,4 +120,27 @@ footer {
 .blogText {
     margin: 10px; 
     text-align: left;
+}
+
+.paragraphWhite {
+    color: white;
+    font-size: 20px;
+}
+
+.footerText {
+    color: white;
+    font-size: 15px;
+    text-align: left;
+}
+
+footer {
+    background-color: rgb(0, 130, 135);
+    padding: 3px;
+    margin-top: auto;
+}
+
+.footerText {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
 }

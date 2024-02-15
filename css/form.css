@@ -1,20 +1,4 @@
 /* The form area */
-/* TODO duplicate in utilities.css */
-.container {
-    display: grid;
-    text-align: center;
-    background: rgba(244, 227, 207, 1);
-    margin-top: 30px;
-    margin-bottom: 40px;
-    border: 4px solid rgba(244, 227, 207, 1);
-    border-radius: 1rem;
-    max-width: 400px;
-    padding: 30px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 /* The area for filling in characters */
 .item {

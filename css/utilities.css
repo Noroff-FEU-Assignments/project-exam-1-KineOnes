@@ -1,20 +1,5 @@
 /* Flex, grid, margins, padding */
 
-/* TODO - what are .expo and .expos for?*/
-.expos {
-    text-align: left;
-    display: flex; 
-    padding: 10px;
-    max-width: 800px;
-    background: #F4E3CF;
-}
-
-.expo {
-    text-align: left;
-    flex: 1px;
-    background-color: #ffffff;
-}
-
 .logo {
     max-width: 285px;
     max-height: 50px;
@@ -35,10 +20,13 @@ body {
 
 .container {
     position: relative;
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     max-width: 840px;
+    border-radius: 1rem;
+    background: rgba(244, 227, 207, 1);
+    padding: 30px;
+    display: flex;
   }
 
 .containerIndex {
@@ -81,6 +69,7 @@ main {
     margin: 0 auto;
 }
 
+/* Images on About page */
 .categoryImage {
     max-width: 400px;
     max-height: 500px;
