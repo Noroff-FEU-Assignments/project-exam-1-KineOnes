@@ -14,10 +14,13 @@ async function populateBlogPage(){
 
     // Update title dynamically
     document.title = `My Blog | ${post.title.rendered}`;
+    const isoDateString = post.date;
+    const formattedDate = new Date(isoDateString).toLocaleDateString();
 
     mainContainer.innerHTML = `
         <h1>${post.title.rendered}</h1>
         ${post.content.rendered}
+        ${formattedDate}
         <div class="modal">
             <span class="modal-close">&times;</span>
             <img class="modal-content" />
@@ -28,6 +31,7 @@ async function populateBlogPage(){
     const modalImage = document.querySelector(".modal-content");
     const modalCaptionText = document.querySelector(".modal-caption");
     const modalClose = document.querySelector(".modal-close");
+    
     
     modalClose.onclick = function() {
         modal.style.display = "none";

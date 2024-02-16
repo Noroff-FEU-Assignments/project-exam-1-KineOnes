@@ -1,7 +1,4 @@
-/* TODO move this global setting somewhere else? */
-* {
-  box-sizing: border-box;
-}
+/* CAROUSEL OF FEATURED / LATEST BLOGPOSTS */
 
 /* Slideshow container */
 .slideshowContainer {

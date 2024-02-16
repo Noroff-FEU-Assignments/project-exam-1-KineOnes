@@ -1,4 +1,5 @@
-const baseUrl = "http://onesdesign.local/wp-json/wp/v2/posts?_embed";
+
+const baseUrl = "http://onesdesign.local/wp-json/wp/v2/posts?_embed&per_page=50"; /* LOAD MORE THEN DEFAULT 10 POSTS */
 const postsContainer = document.querySelector(".posts");
 const loaderContainer = document.querySelector(".loader");
 
@@ -29,4 +30,4 @@ async function getBlogPosts(){
     postsContainer.innerHTML += `<a class="button" onclick="loadMore()">VIEW MORE</a>`;
 }
 
-getBlogPosts();
+getBlogPosts(); 
