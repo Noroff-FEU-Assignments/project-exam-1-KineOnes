@@ -15,7 +15,7 @@ async function populateBlogPage(){
     // Update title dynamically
     document.title = `My Blog | ${post.title.rendered}`;
     const isoDateString = post.date;
-    const formattedDate = new Date(isoDateString).toLocaleDateString();
+    const formattedDate = new Date(isoDateString).toLocaleDateString(); /* Removing the T13 from date displayed */ 
 
     mainContainer.innerHTML = `
         <h1>${post.title.rendered}</h1>
