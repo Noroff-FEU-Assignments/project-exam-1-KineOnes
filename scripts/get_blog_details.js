@@ -18,13 +18,19 @@ async function populateBlogPage(){
     const formattedDate = new Date(isoDateString).toLocaleDateString(); /* Removing the T13 from date displayed */ 
 
     mainContainer.innerHTML = `
-        <h1>${post.title.rendered}</h1>
+    <div class="containerPost">
+        <div class="postItem">
+        <h1>${post.title.rendered}</h1></div>
         ${post.content.rendered}
-        ${formattedDate}
+        <div class="postDate">
+        ${formattedDate}</div>
         <div class="modal">
             <span class="modal-close">&times;</span>
             <img class="modal-content" />
             <div class="modal-caption"></div> 
+            
+        </div class="buttonPostHome">
+        <a href="index.html" class="button">HOME</a>
         </div>`;
 
     const modal = document.querySelector(".modal");
