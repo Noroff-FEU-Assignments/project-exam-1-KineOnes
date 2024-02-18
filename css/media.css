@@ -57,5 +57,13 @@
     .modal-content {
       width: 100%;
     }
+    .text span {
+      padding: 20px 10px;
+      font-size: 15px;
+    }
+    img[class^="wp-image-"] {
+      width: 100%
+    }
+
 } 
   

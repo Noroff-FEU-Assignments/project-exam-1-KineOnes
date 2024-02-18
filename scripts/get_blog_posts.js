@@ -1,17 +1,28 @@
 
-const baseUrl = "http://onesdesign.local/wp-json/wp/v2/posts?_embed&per_page=50"; /* LOAD MORE THEN DEFAULT 10 POSTS */
-const postsContainer = document.querySelector(".posts");
-const loaderContainer = document.querySelector(".loader"); 
-
-async function loadMore(){
-    // TODO load more pages
+let state = {
+    loadedPosts: 0,
 }
 
-async function getBlogPosts(){
-    const response = await fetch(baseUrl);
-    const posts = await response.json();
+const postsContainer = document.querySelector(".posts");
+const loaderContainer = document.querySelector(".loader"); 
+const viewMoreContainer = document.querySelector(".viewMoreButton")
 
-    loaderContainer.style.display = "none";
+async function getBlogPosts(offset){
+    const url = "http://onesdesign.local/wp-json/wp/v2/posts?_embed&per_page=10&offset=" + offset;
+    const response = await fetch(url);
+    const posts = await response.json();
+    return posts
+}
+
+async function loadPosts(){
+    const posts = await getBlogPosts(state.loadedPosts);
+
+    if (state.loadedPosts == 0) {
+        loaderContainer.style.display = "none";
+        viewMoreContainer.innerHTML = `<a class="button" onclick="loadPosts()">VIEW MORE</a>`;
+    }
+
+    state.loadedPosts += 10;
 
     posts.forEach(function(post){
         postsContainer.innerHTML += `
@@ -26,8 +37,6 @@ async function getBlogPosts(){
                 </div>
             </div>`;
     })
-
-    postsContainer.innerHTML += `<a class="button" onclick="loadMore()">VIEW MORE</a>`;
 }
 
-getBlogPosts(); 
+loadPosts(); 
