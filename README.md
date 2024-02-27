@@ -20,6 +20,8 @@ The criterias are to have a featured section with posts in a carousel. A load mo
 - Earthy color pallette
 - 12 blogposts
 
+All images and text are chosen by me. Images from Unsplash.com
+
 ## Built With
 
 - [Figma](https://www.figma.com)
